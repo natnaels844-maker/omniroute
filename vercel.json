@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm run build:secure",
+  "installCommand": "npm ci",
+  "framework": "nextjs",
+  "env": {
+    "OMNIROUTE_USE_TURBOPACK": "0",
+    "OMNIROUTE_BUILD_PROFILE": "minimal",
+    "NEXT_TELEMETRY_DISABLED": "1"
+  }
+}
